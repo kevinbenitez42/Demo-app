@@ -33,6 +33,7 @@ def sample_prices(asset):
 
 st.caption("QUANT POCKET / RESEARCH DEMO")
 st.title("Your market, at a glance.")
+st.page_link("pages/1_Backtesting.py", label="Open backtesting lab", icon="🧪")
 st.info("Demo mode · All prices and metrics are simulated, not live market data.")
 asset = st.selectbox("Asset", list(ASSETS))
 period = st.radio("Timeframe", ["1M", "3M", "6M", "1Y", "5Y"], index=3, horizontal=True)
