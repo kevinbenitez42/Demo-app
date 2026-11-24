@@ -11,7 +11,7 @@ st.markdown("""<style>
 .block-container {max-width:880px;padding-top:1.5rem;padding-bottom:3rem;}
 @media(max-width:600px){.block-container{padding-left:1rem;padding-right:1rem;}h1{font-size:2rem!important;}}
 </style>""", unsafe_allow_html=True)
-st.page_link("app.py", label="Home", icon="🏠")
+st.page_link("home.py", label="Home", icon="🏠")
 st.caption("QUANT POCKET / NOTEBOOK LAB")
 st.title("Test a strategy.")
 st.write("Compare buy and hold, a moving-average crossover, and inverse-volatility sizing using daily market prices.")
